@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spring-security-oauth-backend-image
+  labels:
+    app: spring-security-oauth-backend
+    fluentd: "true"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: spring-security-oauth-backend
+  template:
+    metadata:
+      labels:
+        app: spring-security-oauth-backend
+    spec:
+      containers:
+        - name: spring-security-oauth-backend
+          image: tvsmazp360acrprod01.azurecr.io/spring-security-oauth-backend:1.0.0
+          ports:
+            - containerPort: 8082

@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: spring-security-oauth-backend
+  annotations:
+        service.beta.kubernetes.io/azure-load-balancer-internal: "true"
+spec:
+  selector:
+    app: spring-security-oauth-backend
+  ports:
+    - port: 8001
+      targetPort: 8082
+  type: LoadBalancer
+

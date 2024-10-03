@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login-TVSM</title>
+</head>
+<body>
+    Welcome to TVSM - static
+    <br />
+    <div id="otpForm">
+        Enter mobile number: <input type="text" id="mobile" name="mobile"> <br />
+        <input type="button" onclick="sendOtp()" name="otp" value="Get OTP">
+    </div>
+
+    <div id="otpSubmitForm">
+        <form action="login" method="post">
+        Mobile number: <input type="text" id="submitMobile" name="username"> <br />
+        OTP: <input type="text" id="otp" name="password"> <br />
+        <input type="submit" name="otp" value="Submit otp">
+        </form>
+    </div>
+
+    <script type="text/javascript">
+        function sendOtp() {
+            if(true) {
+                document.getElementById("otpForm").style.visibility = "hidden";
+                document.getElementById("otpSubmitForm").style.visibility = "visible";
+                document.getElementById("submitMobile").value = document.getElementById("mobile").value;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,408 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?a83xnd');
+  src:  url('fonts/icomoon.eot?a83xnd#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?a83xnd') format('truetype'),
+    url('fonts/icomoon.woff?a83xnd') format('woff'),
+    url('fonts/icomoon.svg?a83xnd#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-blogs:before {
+  content: "\e976";
+}
+.icon-book-charger:before {
+  content: "\e971";
+}
+.icon-color-selection:before {
+  content: "\e972";
+}
+.icon-book-like-thumb:before {
+  content: "\e973";
+}
+.icon-book-mobile:before {
+  content: "\e974";
+}
+.icon-book-note:before {
+  content: "\e975";
+}
+.icon-battery-charge:before {
+  content: "\e96e";
+}
+.icon-locate:before {
+  content: "\e96f";
+}
+.icon-iqube-mono:before {
+  content: "\e970";
+}
+.icon-hamburger-plain:before {
+  content: "\e96d";
+}
+.icon-three-D:before {
+  content: "\e95b";
+}
+.icon-battery-power .path1:before {
+  content: "\e95c";
+  color: rgb(0, 0, 0);
+}
+.icon-battery-power .path2:before {
+  content: "\e95d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-battery-power .path3:before {
+  content: "\e95e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-battery-power .path4:before {
+  content: "\e95f";
+  margin-left: -1em;
+  color: rgb(51, 153, 255);
+}
+.icon-design:before {
+  content: "\e960";
+}
+.icon-faq:before {
+  content: "\e961";
+}
+.icon-performance:before {
+  content: "\e962";
+}
+.icon-price .path1:before {
+  content: "\e963";
+  color: rgb(0, 0, 0);
+}
+.icon-price .path2:before {
+  content: "\e964";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-price .path3:before {
+  content: "\e965";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-price .path4:before {
+  content: "\e966";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-price .path5:before {
+  content: "\e967";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-price .path6:before {
+  content: "\e968";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-price .path7:before {
+  content: "\e969";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-review:before {
+  content: "\e96a";
+}
+.icon-smart-Xconnect:before {
+  content: "\e96b";
+}
+.icon-user-circle:before {
+  content: "\e96c";
+}
+.icon-play-arrow:before {
+  content: "\e95a";
+}
+.icon-three-dots:before {
+  content: "\e959";
+}
+.icon-payment-pending:before {
+  content: "\e958";
+}
+.icon-article:before {
+  content: "\e957";
+}
+.icon-arrows:before {
+  content: "\e956";
+}
+.icon-checkmark-fill:before {
+  content: "\e955";
+}
+.icon-pin-not:before {
+  content: "\e954";
+}
+.icon-list:before {
+  content: "\e952";
+}
+.icon-street-map:before {
+  content: "\e953";
+}
+.icon-direction:before {
+  content: "\e951";
+}
+.icon-distance:before {
+  content: "\e950";
+}
+.icon-right-next:before {
+  content: "\e94f";
+}
+.icon-download-file:before {
+  content: "\e94d";
+}
+.icon-handshake:before {
+  content: "\e94e";
+}
+.icon-warranty:before {
+  content: "\e94c";
+}
+.icon-download:before {
+  content: "\e94b";
+}
+.icon-home:before {
+  content: "\e94a";
+}
+.icon-dealership:before {
+  content: "\e949";
+}
+.icon-arrow-booking:before {
+  content: "\e948";
+}
+.icon-rupee-fill .path1:before {
+  content: "\e946";
+  color: rgb(240, 240, 240);
+}
+.icon-rupee-fill .path2:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-thank-you:before {
+  content: "\e945";
+}
+.icon-support:before {
+  content: "\e944";
+}
+.icon-years:before {
+  content: "\e902";
+}
+.icon-charge-anywhere:before {
+  content: "\e911";
+}
+.icon-charge-go:before {
+  content: "\e913";
+}
+.icon-charge-home:before {
+  content: "\e916";
+}
+.icon-map-pin:before {
+  content: "\e91b";
+}
+.icon-location:before {
+  content: "\e91e";
+}
+.icon-navigation:before {
+  content: "\e926";
+}
+.icon-power:before {
+  content: "\e92b";
+}
+.icon-range-lg:before {
+  content: "\e92c";
+}
+.icon-rupee:before {
+  content: "\e935";
+}
+.icon-user:before {
+  content: "\e93b";
+}
+.icon-user-outline:before {
+  content: "\e93c";
+}
+.icon-international:before {
+  content: "\e93e";
+}
+.icon-network:before {
+  content: "\e941";
+}
+.icon-done:before {
+  content: "\e942";
+}
+.icon-youTube:before {
+  content: "\e943";
+}
+.icon-question-circle:before {
+  content: "\e91d";
+}
+.icon-check:before {
+  content: "\e93f";
+}
+.icon-close:before {
+  content: "\e940";
+}
+.icon-charge-vehicle:before {
+  content: "\e93d";
+}
+.icon-play:before {
+  content: "\e93a";
+}
+.icon-sign-out:before {
+  content: "\e939";
+}
+.icon-plus-circle:before {
+  content: "\e937";
+}
+.icon-minus-circle:before {
+  content: "\e938";
+}
+.icon-bike:before {
+  content: "\e934";
+}
+.icon-thin-ev-scooter:before {
+  content: "\e936";
+}
+.icon-discuss-issue:before {
+  content: "\e932";
+}
+.icon-light-bulb:before {
+  content: "\e933";
+}
+.icon-arrow-booking-lg:before {
+  content: "\e92d";
+  color: #bcbec0;
+}
+.icon-info:before {
+  content: "\e92e";
+}
+.icon-acceleration:before {
+  content: "\e92f";
+}
+.icon-calender-outline:before {
+  content: "\e930";
+}
+.icon-fuel:before {
+  content: "\e931";
+}
+.icon-mail:before {
+  content: "\e924";
+}
+.icon-failed:before {
+  content: "\e925";
+}
+.icon-mobile:before {
+  content: "\e927";
+}
+.icon-edit:before {
+  content: "\e928";
+}
+.icon-refresh:before {
+  content: "\e929";
+}
+.icon-success:before {
+  content: "\e92a";
+}
+.icon-plus:before {
+  content: "\e920";
+}
+.icon-facebook:before {
+  content: "\e921";
+}
+.icon-twitter:before {
+  content: "\e922";
+}
+.icon-insta:before {
+  content: "\e923";
+}
+.icon-awards:before {
+  content: "\e91c";
+}
+.icon-star:before {
+  content: "\e91f";
+}
+.icon-checkmark-circle:before {
+  content: "\e919";
+}
+.icon-close-circle:before {
+  content: "\e91a";
+}
+.icon-statistics:before {
+  content: "\e90d";
+}
+.icon-phone:before {
+  content: "\e910";
+}
+.icon-charge:before {
+  content: "\e912";
+}
+.icon-tft-dashboard:before {
+  content: "\e914";
+}
+.icon-iqube-app:before {
+  content: "\e915";
+}
+.icon-charging-type:before {
+  content: "\e917";
+}
+.icon-charging-time:before {
+  content: "\e918";
+}
+.icon-motor:before {
+  content: "\e90c";
+}
+.icon-battery:before {
+  content: "\e90b";
+}
+.icon-range:before {
+  content: "\e90e";
+}
+.icon-speed:before {
+  content: "\e90f";
+}
+.icon-polygon:before {
+  content: "\e906";
+}
+.icon-arrow-left:before {
+  content: "\e907";
+}
+.icon-arrow-right:before {
+  content: "\e908";
+}
+.icon-arrow-up:before {
+  content: "\e909";
+}
+.icon-arrow-down:before {
+  content: "\e90a";
+}
+.icon-calender:before {
+  content: "\e900";
+}
+.icon-hamburger-menu:before {
+  content: "\e901";
+}
+.icon-afternoon:before {
+  content: "\e903";
+}
+.icon-evening:before {
+  content: "\e904";
+}
+.icon-morning:before {
+  content: "\e905";
+}
